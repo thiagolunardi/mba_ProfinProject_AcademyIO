@@ -15,12 +15,19 @@ Autenticação segura via JWT 🔒
 Registro e pesquisa de alunos por curso 🔍
 
 👥 Equipe de Desenvolvimento
+
 Fabiano Marcolin Maciel
+
 Breno Francisco Morais
+
 Caio Gustavo Rodrigues
+
 Luis Felipe da Silva Sousa
+
 Thiago Albuquerque Severo
+
 Viliane Oliveira
+
 
 🛠️ Tecnologias Utilizadas
 Back-End:
