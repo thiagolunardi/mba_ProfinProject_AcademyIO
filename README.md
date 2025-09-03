@@ -1,18 +1,14 @@
 🏦 **AcademyIO - Plataforma de Educação Online**
 
-Bem-vindo ao AcademyIO, um projeto desenvolvido no **MBA DevXpert Full Stack .NET** para o módulo 4. O AcademyIO é uma solução inovadora para Educação Online, permitindo que os usuários acompanhem seus cursos, e certificados de maneira intuitiva através de uma API RESTful robusta.
+Bem-vindo ao AcademyIO, um projeto desenvolvido no **MBA DevXpert Full Stack .NET** para o módulo 4. O AcademyIO é uma solução inovadora para Educação Online, permitindo que os usuários acompanhem seus cursos, e certificados de maneira intuitiva através de uma API RESTful robusta.  
 
 🚀 **Sobre o Projeto**
 
-A plataforma foi criada para proporcionar uma experiência fluida e segura no controle dos cursos e matricula, oferecendo:
-
-Registro de cursos 
-
-Pagamento e faturamento 📊
-
-Autenticação segura via JWT 🔒
-
-Registro e pesquisa de alunos por curso 🔍
+A plataforma foi criada para proporcionar uma experiência fluida e segura no controle dos cursos e matricula, oferecendo:  
+Registro de cursos   
+Pagamento e faturamento 📊  
+Autenticação segura via JWT 🔒  
+Registro e pesquisa de alunos por curso 🔍  
 
 
 👥**Equipe de Desenvolvimento**
