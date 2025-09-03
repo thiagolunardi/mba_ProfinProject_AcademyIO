@@ -13,20 +13,20 @@ Registro e pesquisa de alunos por curso 🔍
 
 👥**Equipe de Desenvolvimento**
 
-Fabiano Marcolin Maciel  
-Breno Francisco Morais  
-Caio Gustavo Rodrigues  
-Luis Felipe da Silva Sousa  
-Thiago Albuquerque Severo  
-Viliane Oliveira  
+- Fabiano Marcolin Maciel  
+- Breno Francisco Morais  
+- Caio Gustavo Rodrigues  
+- Luis Felipe da Silva Sousa  
+- Thiago Albuquerque Severo  
+- Viliane Oliveira  
 
-🛠️ Tecnologias Utilizadas  
+🛠️ **Tecnologias Utilizadas**  
 Back-End:  
-C#  
-ASP.NET Core Web API (.NET 8.0)  
-Entity Framework Core (EF Core 8.0.10)  
-SQL Server / SQLite  
-ASP.NET Core Identity + JWT  
+- C#  
+- ASP.NET Core Web API (.NET 8.0)  
+- Entity Framework Core (EF Core 8.0.10)  
+- SQL Server / SQLite  
+- ASP.NET Core Identity + JWT  
 
 **Documentação:**
 Swagger 📄
