@@ -18,22 +18,15 @@ Breno Francisco Morais
 Caio Gustavo Rodrigues  
 Luis Felipe da Silva Sousa  
 Thiago Albuquerque Severo  
+Viliane Oliveira  
 
-Viliane Oliveira
-
-🛠️ Tecnologias Utilizadas
-Back-End:
-
-C#
-
-ASP.NET Core Web API (.NET 8.0)
-
-Entity Framework Core (EF Core 8.0.10)
-
-SQL Server / SQLite
-
-ASP.NET Core Identity + JWT
-
+🛠️ Tecnologias Utilizadas  
+Back-End:  
+C#  
+ASP.NET Core Web API (.NET 8.0)  
+Entity Framework Core (EF Core 8.0.10)  
+SQL Server / SQLite  
+ASP.NET Core Identity + JWT  
 
 **Documentação:**
 Swagger 📄
