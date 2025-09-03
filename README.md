@@ -5,10 +5,10 @@ Bem-vindo ao AcademyIO, um projeto desenvolvido no **MBA DevXpert Full Stack .NE
 🚀 **Sobre o Projeto**
 
 A plataforma foi criada para proporcionar uma experiência fluida e segura no controle dos cursos e matricula, oferecendo:  
-Registro de cursos   
-Pagamento e faturamento 📊  
-Autenticação segura via JWT 🔒  
-Registro e pesquisa de alunos por curso 🔍  
+- Registro de cursos   
+- Pagamento e faturamento 📊  
+- Autenticação segura via JWT 🔒  
+- Registro e pesquisa de alunos por curso 🔍  
 
 
 👥**Equipe de Desenvolvimento**
