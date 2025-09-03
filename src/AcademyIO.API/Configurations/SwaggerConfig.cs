@@ -25,7 +25,7 @@ namespace AcademyIO.API.Configurations
                     Title = "Academy IO",
                     Description = "Academy IOSwagger",
                     Contact = new OpenApiContact { Name = "Academy IO Team", Email = "admin@AcademyIO.com" },
-                    License = new OpenApiLicense { Name = "MIT", Url = new Uri("https://github.com/FabianoMaciel/AcademyIOProject") }
+                    License = new OpenApiLicense { Name = "MIT", Url = new Uri("https://github.com/ProfinProject/AcademyIO") }
                 });
 
                 s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
