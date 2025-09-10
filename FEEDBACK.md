@@ -149,8 +149,9 @@ Considere a criatividade e inovação na solução proposta.
 ## Documentação e Organização 10%
 
 Verifique a qualidade e completude da documentação, incluindo README.md.
-
-
+* Antes de submeterem para avaliação final, atualizem o README.md e repitam o processo de execução do projeto, para garantir que todas as instruções estão corretas e atualizadas.
+* Será revisado na avalição final.
+* 
 ## Resolução de Feedbacks 10%
 
 Avalie a resolução dos problemas apontados na primeira avaliação de frontend
