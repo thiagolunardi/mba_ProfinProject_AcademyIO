@@ -55,11 +55,16 @@ tests/
 │   │   │   │   ├── GetByIdTests.cs
 │   .   .   .   .
 ├── ApiTests/
-│   ├── AppUserServiceTests/
-│   │   ├── IsAuthenticatedTests.cs
-│   │   ├── GetIsTests.cs
-│   │   └── IsAdminTests.cs
-.   .   
+│   ├── ServicesTests/
+│   │   ├── AppUserServiceTests/
+│   │   │   ├── IsAuthenticatedTests.cs
+│   │   │   ├── GetIdTests.cs
+│   │   │   └── IsAdminTests.cs
+│   ├── ControllersTests/
+│   │   ├── CoursesControllerTests/
+│   │   │   ├── GetAllTests.cs
+│   │   │   ├── GetByIdTests.cs
+.   .   .   .   
 ``` 
 Exemplo de classe de teste, com escopo e foco em um caso de uso específico, mas vários casos de teste, seguindo o modelo `[Objeto > Estado > Espectativa]`:
 
@@ -101,6 +106,7 @@ public partial class CourseQueriesTests
   - Uso de autenticação e autorização com políticas baseadas em funções (Aluno e Admin)
 
 * Comentários e recomendações:
+  - `AppUserService` não é uma extensão, então não deve estar na pasta `Extensions`.
   - Movam as configurações dos serviços e EF de contextos delimitados para dentro de `Application`, isso vai efitar que a API tenha dependência à camadas não relevantes como à de dados. A API deve apenas referênciar à `Application`.
   - Evitem o uso de _magic strings_ para nomes de políticas de autorização. Usem constantes.
   - A _controller_ `AuthController` está com muitas regras em seus métodos, considerem criar um `AuthService` para encapsular a lógica de autenticação e registro.
