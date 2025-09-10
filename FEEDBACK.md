@@ -66,21 +66,21 @@ tests/
 │   │   │   ├── GetByIdTests.cs
 .   .   .   .   
 ``` 
-Exemplo de classe de teste, com escopo e foco em um caso de uso específico, mas vários casos de teste, seguindo o modelo `[Objeto > Estado > Espectativa]`:
+Exemplo de classe de teste, com escopo e foco em um caso de uso específico, mas vários casos de teste, seguindo o modelo `[Objeto > Comportamento > Estado > Espectativa]`:
 
 Teste: `tests/ServicesTests/CoursesManagement/QueriesTests/GetAllTests.cs`
 ```csharp
 namespace Tests.ServicesTests.CourseManagementTests.QueriesTests;
 
-public partial class CourseQueriesTests
+public partial class CourseQueriesTests // Objeto sob teste
 {
-    public class GetAllTests
+    public class GetAllTests // Comportamento (aka Caso de Uso)
     {
         [Fact]
-        public async Task NoCourse_ReturnEmptyList() { ... }    
+        public async Task NoCourse_ReturnEmptyList() { ... } // Estado e espectativa (aka Caso de Teste)    
 
         [Fact]
-        public async Task ExistingCourses_ReturnListSortedByName() { ... }
+        public async Task ExistingCourses_ReturnListSortedByName() { ... } // Estado e espectativa (aka Caso de Teste)
 }
 ```
 
