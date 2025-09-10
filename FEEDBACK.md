@@ -14,7 +14,7 @@ Considere clareza, organização e uso de padrões de codificação.
   - Boa separação de responsabilidades por projetos
   - Uso de CQRS
 
-* Recomendações opcionais
+* Comentários e recomendações:
   - Crie um _handler_ para cada _command_ e _query_, ao invés de agrupar vários em um único _handler_. Isso melhora a clareza, facilita a manutenção, os testes, e não quebre o princípio de responsabilidade única (SRP, SOLID Principles).
   - Cuidado com o uso excessivo de `AsNoTracking()`, não o use como recurso padrão.
   - Em `PaymentManagement`, parece que `PaymentCommandHandler` e `PaymentService` são redundantes. Considere adotar ou serviços ou _handlers_ para regras de negócio.
@@ -25,7 +25,7 @@ Considere clareza, organização e uso de padrões de codificação.
   - Navegação dos testes é fácil via _Test Explorer_
   - Mais de 80% de cobertura de código em toda a solução
 
-* Comentários 
+* Comentários e recomendações: 
   - O teste `Register_ValidModel_ShouldReturnOkWithModel` não está testando nada. Recomendações para o _assert_:
     - Se `_userManager.CreateAsync()` foi chamado com os parâmetros corretos
     - Se `_userManager.AddToRoleAsync()` foi chamado com os parâmetros corretos
@@ -139,7 +139,8 @@ Avalie o desempenho e a eficiência das soluções implementadas.
   - Uso de `AsNoTracking()` em consultas de leitura para melhorar o desempenho.
   - Use de recursos 
 
-* Tente eliminar os _Warnings_ dos projetos quando se faz o _build_.
+* Comentários e recomendações:
+  - Tente eliminar os _Warnings_ dos projetos quando se faz o _build_.
 
 ## Inovação e Diferenciais 10%
 
@@ -149,7 +150,8 @@ Considere a criatividade e inovação na solução proposta.
 ## Documentação e Organização 10%
 
 Verifique a qualidade e completude da documentação, incluindo README.md.
-* Antes de submeterem para avaliação final, atualizem o README.md e repitam o processo de execução do projeto, para garantir que todas as instruções estão corretas e atualizadas.
+* Comentários e recomendações:
+  - Antes de submeterem para avaliação final, atualizem o README.md e repitam o processo de execução do projeto, para garantir que todas as instruções estão corretas e atualizadas.
 * Será revisado na avalição final.
 
 ## Resolução de Feedbacks 10%
